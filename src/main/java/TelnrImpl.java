@@ -5,6 +5,7 @@ public class TelnrImpl implements ITelnr{
 	public boolean nummerCheck(String telnr) {
 		// TODO Auto-generated method stub
 		
+	
 		return false;
 	}
 
