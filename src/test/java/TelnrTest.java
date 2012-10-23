@@ -4,7 +4,6 @@ import org.junit.runner.RunWith;
 
 import org.jmock.*;
 
-import ch.panter.jmock.gettingstarted.ISubscriber;
 
 public class TelnrTest {
 
@@ -18,7 +17,7 @@ public class TelnrTest {
 		final IBenutzer benutzer = context.mock(IBenutzer.class);
 
 		TelnrImpl tel = new TelnrImpl();
-		instance.add(benutzer);
+//		instance.add(benutzer);
 
 		// context.checking(new Expectations(){{
 		// oneOf (telnr).numCheck(true);
