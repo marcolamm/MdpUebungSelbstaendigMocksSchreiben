@@ -1,7 +1,4 @@
 
-
-
-public interface IBenutzer
-{
-public void nummerEingeben();
+public interface IBenutzer {
+	public void nummerEingeben();
 }
